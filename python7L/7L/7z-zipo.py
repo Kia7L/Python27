@@ -15,7 +15,7 @@ from colorama import *
 #top-
 os.system("Title L-Zipo")
 os.system("color 01")
-os.system("mode con: cols=105 lines=15")
+os.system("mode 51,15")
 cls = ('cls')
 os.system(cls)
 #--------------------------------

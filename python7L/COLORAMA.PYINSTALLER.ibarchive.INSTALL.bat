@@ -11,7 +11,7 @@ echo goto
 pause
 cd C:\%Python%
 @color 02
-%PY% -m install  pip --upgrade
+%PY% install  pip --upgrade
 echo Update was INSTALLED
 pause
 cd C:\%Python%
