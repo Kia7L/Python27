@@ -3,11 +3,7 @@ echo off
 mode con: cols=50 lines=30
 cls
 set "Python=Python27"
-cd \%Python%
-@color 10
-pip install label
-echo label
-pause
+
 cd \%Python%
 @color 01
 pip install goto-statement
