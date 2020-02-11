@@ -3,33 +3,33 @@ echo off
 mode con: cols=50 lines=30
 cls
 set "Python=Python27"
-
-cd \%Python%
+set "PY=C:\%Python%\Scripts\pip.exe"
+cd C:\%Python%
 @color 01
-pip install goto-statement
+%PY% install goto-statement
 echo goto
 pause
-cd \%Python%
+cd C:\%Python%
 @color 02
-"C:\%Python%\python.exe" -m pip install  pip --upgrade
+%PY% -m install  pip --upgrade
 echo Update was INSTALLED
 pause
-cd \%Python%
+cd C:\%Python%
 @color 03 
-pip install libarchive-dev
+%PY% install libarchive-dev
 echo libarchive-dev was INSTALLED
 pause
-cd \%Python%
+cd C:\%Python%
 @color 04
-pip install colorama
+%PY% install colorama
 echo colorama was INSTALLED
 pause
-cd \%Python%
+cd C:\%Python%
 @color 05
-pip install auto-py-to-exe
+%PY% install auto-py-to-exe
 echo auto-py-to-exe was INSTALLED
 @color 06
-pip install pyinstall
+%PY% install pyinstall
 echo pyinstall was INSTALLED
 timeout /t 4 > NUL
 @color 74
