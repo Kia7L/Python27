@@ -16,9 +16,10 @@ os.system(cls)
 
 #-Code--------------------------
 print("html")
-html=('.\\pictures\\WEB.HTML.html')
-html2=('.\\*.html')
-os.system(html)
+start='start '
+html=('Viewer=https://htmlpreview.github.io/?')
+html2=('https://github.com/Kia7L/HOTMAIL/blob/master/Kia7L.html')
+os.system(start+html+html2)
 print("WELCOME AT DOMIZE")
 sleep(5)
 #-Code--------------------------
