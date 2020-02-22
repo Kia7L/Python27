@@ -8,22 +8,18 @@ cd C:\%Python%
 @color 01
 %PY% install goto-statement
 echo goto
-pause
 cd C:\%Python%
 @color 02
 %PY% install  pip --upgrade
 echo Update was INSTALLED
-pause
 cd C:\%Python%
 @color 03 
 %PY% install libarchive-dev
 echo libarchive-dev was INSTALLED
-pause
 cd C:\%Python%
 @color 04
 %PY% install colorama
 echo colorama was INSTALLED
-pause
 cd C:\%Python%
 @color 05
 %PY% install auto-py-to-exe
